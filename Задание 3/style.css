@@ -1,0 +1,51 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 55px 55px max-content 1fr;
+    column-gap: 16px;
+    width:500px;
+    height:max-content;
+    border: 3px solid lightskyblue;
+    box-shadow: 4px 4px 8px 0px rgba(0, 164, 253, 0.2);
+    border-radius: 24px;
+}
+h1{
+    grid-column: span 3;
+    height: max-content;
+    text-align: center;
+}
+.row{
+    margin: 5px;
+    grid-column: span 3;
+    display: inline-flex;
+    height: max-content;
+}
+.form-control{
+    width: 290px;
+    height: 40px;
+    border: 1px solid lightskyblue;
+    box-shadow: 4px 4px 8px 0px rgba(0, 164, 253, 0.2);
+    border-radius: 24px;
+}
+.button{
+    padding: 10px 5px 10px 5px;
+}
+.btn{
+    background: lightskyblue;
+    border: 1px solid lightskyblue;
+    box-shadow: 4px 4px 8px 0px rgba(0, 164, 253, 0.2);
+    border-radius: 6px;
+}
+#output{
+    grid-column: span 3;
+    margin: 5px;
+    border: 1px solid lightskyblue;
+    box-shadow: 4px 4px 8px 0px rgba(0, 164, 253, 0.2);
+    border-radius: 24px;
+}
+span{
+    padding: 5px;
+}
+.sent{
+    text-align: right;
+}
